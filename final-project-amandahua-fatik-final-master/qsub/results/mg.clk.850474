@@ -1,0 +1,68 @@
+Sender: LSF System <lsfadmin@linuxlab011.engr.wustl.edu>
+Subject: Job 850474: <run.sh> in cluster <SEAS-COMPUTE> Done
+
+Job <run.sh> was submitted from host <linuxlab009.engr.wustl.edu> by user <amandahua> in cluster <SEAS-COMPUTE> at Sat Apr 25 18:53:57 2020
+Job was executed on host(s) <linuxlab011.engr.wustl.edu>, in queue <linuxlab-cse539>, as user <amandahua> in cluster <SEAS-COMPUTE> at Sat Apr 25 18:53:59 2020
+</home/warehouse/amandahua> was used as the home directory.
+</home/warehouse/amandahua/final-project-amandahua-fatik-final> was used as the working directory.
+Started at Sat Apr 25 18:53:59 2020
+Terminated at Sat Apr 25 19:01:11 2020
+Results reported at Sat Apr 25 19:01:11 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+
+#BSUB -q linuxlab-cse539
+#BSUB -o mg.clk.%J
+#BSUB -e mg.clk.%J
+#BSUB -J run.sh
+
+echo "Start"
+./run.sh CLK
+echo "End"
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1750.12 sec.
+    Max Memory :                                 3 GB
+    Average Memory :                             2.90 GB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                22
+    Run time :                                   431 sec.
+    Turnaround time :                            434 sec.
+
+The output (if any) follows:
+
+Start
+/home/warehouse/amandahua/final-project-amandahua-fatik-final/NPB-CLK
+mg, C, 
+./NPB-/run.sh 1 mg.C
+Trial 0 of running mg.C with CLK and 1 cores
+Time in seconds = 55.10 0
+Trial 0 of running mg.C with CLK and 2 cores
+Time in seconds = 36.97 2
+Trial 0 of running mg.C with CLK and 4 cores
+Time in seconds = 31.08 4
+Trial 0 of running mg.C with CLK and 6 cores
+Time in seconds = 29.84 6
+Trial 0 of running mg.C with CLK and 8 cores
+Time in seconds = 29.03 8
+Trial 0 of running mg.C with CLK and 10 cores
+Time in seconds = 15.26 10
+Trial 0 of running mg.C with CLK and 12 cores
+Time in seconds = 17.73 12
+Trial 0 of running mg.C with CLK and 14 cores
+Time in seconds = 16.13 14
+Trial 0 of running mg.C with CLK and 16 cores
+Time in seconds = 13.58 16
+End

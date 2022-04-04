@@ -1,0 +1,60 @@
+P=1
+Running time 1: 10.161088 s
+Running time 2: 10.202699 s
+Running time 3: 10.113908 s
+Running time 4: 9.937903 s
+Running time 5: 9.663700 s
+Running time average: 10.015860 s
+Std. dev: 0.221194 s (2.208%)
+
+Cilk Example: strassen
+Options: n = 4096
+
+P=2
+Running time 1: 5.316931 s
+Running time 2: 5.191731 s
+Running time 3: 5.172606 s
+Running time 4: 5.152056 s
+Running time 5: 5.119995 s
+Running time average: 5.190664 s
+Std. dev: 0.075424 s (1.453%)
+
+Cilk Example: strassen
+Options: n = 4096
+
+P=4
+Running time 1: 3.047080 s
+Running time 2: 2.805988 s
+Running time 3: 2.808840 s
+Running time 4: 2.822844 s
+Running time 5: 2.846536 s
+Running time average: 2.866258 s
+Std. dev: 0.102347 s (3.571%)
+
+Cilk Example: strassen
+Options: n = 4096
+
+P=8
+Running time 1: 2.070372 s
+Running time 2: 1.793632 s
+Running time 3: 1.804685 s
+Running time 4: 1.684118 s
+Running time 5: 1.732002 s
+Running time average: 1.816962 s
+Std. dev: 0.149814 s (8.245%)
+
+Cilk Example: strassen
+Options: n = 4096
+
+P=16
+Running time 1: 2.102784 s
+Running time 2: 1.563390 s
+Running time 3: 1.421386 s
+Running time 4: 1.483946 s
+Running time 5: 1.349550 s
+Running time average: 1.584211 s
+Std. dev: 0.300409 s (18.963%)
+
+Cilk Example: strassen
+Options: n = 4096
+

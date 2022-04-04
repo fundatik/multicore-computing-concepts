@@ -1,0 +1,170 @@
+P=1
+P=1
+Running time 1: 20.425389 s
+Running time 2: 20.390184 s
+Running time 3: 20.216628 s
+Running time 4: 20.372118 s
+Running time 5: 20.472205 s
+Running time average: 20.375305 s
+Std. dev: 0.096576 s (0.474%)
+
+Cilk Example: cholesky
+Options: original size     = 4000
+         original nonzeros = 40000
+         input nonzeros    = 40096
+         input blocks      = 35850
+         output nonzeros   = 6350806
+         output blocks     = 477040
+
+Running time 1: 20.167848 s
+Running time 2: 20.015257 s
+Running time 3: 19.713419 s
+Running time 4: 20.047506 s
+Running time 5: 19.830147 s
+Running time average: 19.954836 s
+Std. dev: 0.181275 s (0.908%)
+
+Cilk Example: cholesky
+Options: original size     = 4000
+         original nonzeros = 40000
+         input nonzeros    = 40096
+         input blocks      = 35850
+         output nonzeros   = 6350806
+         output blocks     = 477040
+
+P=2
+Running time 1: 10.183918 s
+Running time 2: 10.224544 s
+Running time 3: 10.284270 s
+Running time 4: 10.108831 s
+Running time 5: 10.450186 s
+Running time average: 10.250350 s
+Std. dev: 0.128639 s (1.255%)
+
+Cilk Example: cholesky
+Options: original size     = 4000
+         original nonzeros = 40000
+         input nonzeros    = 40096
+         input blocks      = 35850
+         output nonzeros   = 6350806
+         output blocks     = 477040
+
+P=2
+Running time 1: 10.938132 s
+Running time 2: 10.710377 s
+Running time 3: 10.575282 s
+Running time 4: 10.573275 s
+Running time 5: 10.304350 s
+Running time average: 10.620283 s
+Std. dev: 0.230865 s (2.174%)
+
+Cilk Example: cholesky
+Options: original size     = 4000
+         original nonzeros = 40000
+         input nonzeros    = 40096
+         input blocks      = 35850
+         output nonzeros   = 6350806
+         output blocks     = 477040
+
+P=4
+Running time 1: 5.647646 s
+Running time 2: 6.313951 s
+Running time 3: 6.483168 s
+Running time 4: 6.799027 s
+Running time 5: 6.409165 s
+Running time average: 6.330592 s
+Std. dev: 0.422959 s (6.681%)
+
+Cilk Example: cholesky
+Options: original size     = 4000
+         original nonzeros = 40000
+         input nonzeros    = 40096
+         input blocks      = 35850
+         output nonzeros   = 6350806
+         output blocks     = 477040
+
+P=4
+Running time 1: 6.575139 s
+Running time 2: 6.275370 s
+Running time 3: 5.473403 s
+Running time 4: 6.533882 s
+Running time 5: 6.177810 s
+Running time average: 6.207121 s
+Std. dev: 0.443303 s (7.142%)
+
+Cilk Example: cholesky
+Options: original size     = 4000
+         original nonzeros = 40000
+         input nonzeros    = 40096
+         input blocks      = 35850
+         output nonzeros   = 6350806
+         output blocks     = 477040
+
+P=8
+P=8
+Running time 1: 6.946723 s
+Running time 2: 7.264356 s
+Running time 3: 8.568269 s
+Running time 4: 7.676838 s
+Running time 5: 5.137404 s
+Running time average: 7.118718 s
+Std. dev: 1.263833 s (17.754%)
+
+Cilk Example: cholesky
+Options: original size     = 4000
+         original nonzeros = 40000
+         input nonzeros    = 40096
+         input blocks      = 35850
+         output nonzeros   = 6350806
+         output blocks     = 477040
+
+Running time 1: 6.759309 s
+Running time 2: 7.175289 s
+Running time 3: 7.722660 s
+Running time 4: 6.611807 s
+Running time 5: 7.704223 s
+Running time average: 7.194658 s
+Std. dev: 0.516735 s (7.182%)
+
+Cilk Example: cholesky
+Options: original size     = 4000
+         original nonzeros = 40000
+         input nonzeros    = 40096
+         input blocks      = 35850
+         output nonzeros   = 6350806
+         output blocks     = 477040
+
+P=16
+P=16
+Running time 1: 20.041500 s
+Running time 2: 19.245777 s
+Running time 3: 13.919017 s
+Running time 4: 11.671601 s
+Running time 5: 14.395852 s
+Running time average: 15.854750 s
+Std. dev: 3.619465 s (22.829%)
+
+Cilk Example: cholesky
+Options: original size     = 4000
+         original nonzeros = 40000
+         input nonzeros    = 40096
+         input blocks      = 35850
+         output nonzeros   = 6350806
+         output blocks     = 477040
+
+Running time 1: 14.739990 s
+Running time 2: 12.973123 s
+Running time 3: 18.180818 s
+Running time 4: 16.898014 s
+Running time 5: 18.841428 s
+Running time average: 16.326675 s
+Std. dev: 2.441933 s (14.957%)
+
+Cilk Example: cholesky
+Options: original size     = 4000
+         original nonzeros = 40000
+         input nonzeros    = 40096
+         input blocks      = 35850
+         output nonzeros   = 6350806
+         output blocks     = 477040
+

@@ -1,0 +1,192 @@
+Sender: LSF System <lsfadmin@linuxlab011.engr.wustl.edu>
+Subject: Job 416985: <sort> in cluster <SEAS-COMPUTE> Done
+
+Job <sort> was submitted from host <linuxlab007.engr.wustl.edu> by user <fatik> in cluster <SEAS-COMPUTE> at Sun Feb  9 17:37:31 2020
+Job was executed on host(s) <linuxlab011.engr.wustl.edu>, in queue <linuxlab-cse539>, as user <fatik> in cluster <SEAS-COMPUTE> at Sun Feb  9 17:37:31 2020
+</home/warehouse/fatik> was used as the home directory.
+</home/warehouse/fatik/psort-fatik-amandahua-proj1> was used as the working directory.
+Started at Sun Feb  9 17:37:31 2020
+Terminated at Sun Feb  9 17:39:02 2020
+Results reported at Sun Feb  9 17:39:02 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+
+#BSUB -q linuxlab-cse539
+#BSUB -o sort.out.%J
+#BSUB -e sort.out.%J
+#BSUB -J sort
+
+taskset -c 0 ./sort 10000000 0 1 1 
+taskset -c 0 ./sort 10000000 1 1 1 
+taskset -c 0-1 ./sort 10000000 2 1 1 
+taskset -c 0-3 ./sort 10000000 4 1 1 
+taskset -c 0-7 ./sort 10000000 8 1 1 
+taskset -c 0-11 ./sort 10000000 12 1 1 
+taskset -c 0-15 ./sort 10000000 16 1 1 
+
+
+ 
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   237.92 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                20
+    Run time :                                   91 sec.
+    Turnaround time :                            91 sec.
+
+The output (if any) follows:
+
+Number of threads: 0
+Creating a randomly permuted array of size 10000000.
+Now check result ... 
+cilk_sort sorting successful.
+Running time 1: 1.682464 s
+Running time 2: 1.579455 s
+Running time 3: 1.580649 s
+Running time 4: 1.618432 s
+Running time 5: 1.579823 s
+Running time average: 1.608164 s
+Std. dev: 0.044750 s (2.783%)
+Now check result ... 
+pthread_sort sorting successful.
+Running time 1: 1.496741 s
+Running time 2: 1.471940 s
+Running time 3: 1.471938 s
+Running time 4: 1.472111 s
+Running time 5: 1.499517 s
+Running time average: 1.482450 s
+Std. dev: 0.014347 s (0.968%)
+Number of threads: 1
+Creating a randomly permuted array of size 10000000.
+Now check result ... 
+cilk_sort sorting successful.
+Running time 1: 2.176292 s
+Running time 2: 2.166817 s
+Running time 3: 2.151654 s
+Running time 4: 2.178635 s
+Running time 5: 2.160371 s
+Running time average: 2.166754 s
+Std. dev: 0.011190 s (0.516%)
+Now check result ... 
+pthread_sort sorting successful.
+Running time 1: 1.712425 s
+Running time 2: 1.694847 s
+Running time 3: 1.716705 s
+Running time 4: 1.699273 s
+Running time 5: 1.715201 s
+Running time average: 1.707690 s
+Std. dev: 0.009949 s (0.583%)
+Number of threads: 2
+Creating a randomly permuted array of size 10000000.
+Now check result ... 
+cilk_sort sorting successful.
+Running time 1: 1.363010 s
+Running time 2: 1.301793 s
+Running time 3: 1.314465 s
+Running time 4: 1.320463 s
+Running time 5: 1.292678 s
+Running time average: 1.318482 s
+Std. dev: 0.027144 s (2.059%)
+Now check result ... 
+pthread_sort sorting successful.
+Running time 1: 0.984356 s
+Running time 2: 1.142399 s
+Running time 3: 1.148379 s
+Running time 4: 1.149329 s
+Running time 5: 1.130286 s
+Running time average: 1.110950 s
+Std. dev: 0.071174 s (6.407%)
+Number of threads: 4
+Creating a randomly permuted array of size 10000000.
+Now check result ... 
+cilk_sort sorting successful.
+Running time 1: 0.844955 s
+Running time 2: 0.826040 s
+Running time 3: 0.797984 s
+Running time 4: 0.820839 s
+Running time 5: 0.769352 s
+Running time average: 0.811834 s
+Std. dev: 0.029054 s (3.579%)
+Now check result ... 
+pthread_sort sorting successful.
+Running time 1: 0.656119 s
+Running time 2: 0.732031 s
+Running time 3: 0.721937 s
+Running time 4: 0.727954 s
+Running time 5: 0.720340 s
+Running time average: 0.711676 s
+Std. dev: 0.031410 s (4.413%)
+Number of threads: 8
+Creating a randomly permuted array of size 10000000.
+Now check result ... 
+cilk_sort sorting successful.
+Running time 1: 0.513407 s
+Running time 2: 0.478750 s
+Running time 3: 0.471023 s
+Running time 4: 0.488648 s
+Running time 5: 0.490870 s
+Running time average: 0.488539 s
+Std. dev: 0.016020 s (3.279%)
+Now check result ... 
+pthread_sort sorting successful.
+Running time 1: 0.445780 s
+Running time 2: 0.476563 s
+Running time 3: 0.476391 s
+Running time 4: 0.482483 s
+Running time 5: 0.474925 s
+Running time average: 0.471228 s
+Std. dev: 0.014518 s (3.081%)
+Number of threads: 12
+Creating a randomly permuted array of size 10000000.
+Now check result ... 
+cilk_sort sorting successful.
+Running time 1: 0.507742 s
+Running time 2: 0.510388 s
+Running time 3: 0.520257 s
+Running time 4: 0.524832 s
+Running time 5: 0.535146 s
+Running time average: 0.519673 s
+Std. dev: 0.011124 s (2.141%)
+Now check result ... 
+pthread_sort sorting successful.
+Running time 1: 0.379687 s
+Running time 2: 0.443736 s
+Running time 3: 0.459650 s
+Running time 4: 0.456830 s
+Running time 5: 0.499315 s
+Running time average: 0.447844 s
+Std. dev: 0.043393 s (9.689%)
+Number of threads: 16
+Creating a randomly permuted array of size 10000000.
+Now check result ... 
+cilk_sort sorting successful.
+Running time 1: 0.397882 s
+Running time 2: 0.379350 s
+Running time 3: 0.373963 s
+Running time 4: 0.394773 s
+Running time 5: 0.398110 s
+Running time average: 0.388816 s
+Std. dev: 0.011339 s (2.916%)
+Now check result ... 
+pthread_sort sorting successful.
+Running time 1: 0.374713 s
+Running time 2: 0.370765 s
+Running time 3: 0.383378 s
+Running time 4: 0.361632 s
+Running time 5: 0.351174 s
+Running time average: 0.368332 s
+Std. dev: 0.012372 s (3.359%)

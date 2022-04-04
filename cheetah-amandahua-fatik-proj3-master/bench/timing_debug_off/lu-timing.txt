@@ -1,0 +1,60 @@
+P=1
+Running time 1: 11.779497 s
+Running time 2: 11.808927 s
+Running time 3: 11.688945 s
+Running time 4: 11.402843 s
+Running time 5: 11.539734 s
+Running time average: 11.643989 s
+Std. dev: 0.170740 s (1.466%)
+
+Cilk Example: lu
+Options: (n x n matrix) n = 4096
+
+P=2
+Running time 1: 6.387370 s
+Running time 2: 6.249292 s
+Running time 3: 6.253900 s
+Running time 4: 6.215754 s
+Running time 5: 6.206368 s
+Running time average: 6.262537 s
+Std. dev: 0.072762 s (1.162%)
+
+Cilk Example: lu
+Options: (n x n matrix) n = 4096
+
+P=4
+Running time 1: 3.313606 s
+Running time 2: 3.342374 s
+Running time 3: 3.343721 s
+Running time 4: 3.313469 s
+Running time 5: 3.312813 s
+Running time average: 3.325197 s
+Std. dev: 0.016306 s (0.490%)
+
+Cilk Example: lu
+Options: (n x n matrix) n = 4096
+
+P=8
+Running time 1: 2.217139 s
+Running time 2: 2.054633 s
+Running time 3: 2.012332 s
+Running time 4: 2.079067 s
+Running time 5: 2.063339 s
+Running time average: 2.085302 s
+Std. dev: 0.077729 s (3.727%)
+
+Cilk Example: lu
+Options: (n x n matrix) n = 4096
+
+P=16
+Running time 1: 2.766303 s
+Running time 2: 2.354113 s
+Running time 3: 2.768224 s
+Running time 4: 2.845945 s
+Running time 5: 2.958099 s
+Running time average: 2.738537 s
+Std. dev: 0.228680 s (8.350%)
+
+Cilk Example: lu
+Options: (n x n matrix) n = 4096
+

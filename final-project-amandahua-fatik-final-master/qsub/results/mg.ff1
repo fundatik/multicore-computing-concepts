@@ -1,0 +1,67 @@
+Sender: LSF System <lsfadmin@linuxlab011.engr.wustl.edu>
+Subject: Job 818509: <run.sh> in cluster <SEAS-COMPUTE> Done
+
+Job <run.sh> was submitted from host <linuxlab007.engr.wustl.edu> by user <fatik> in cluster <SEAS-COMPUTE> at Mon Apr 20 11:56:20 2020
+Job was executed on host(s) <linuxlab011.engr.wustl.edu>, in queue <linuxlab-cse539>, as user <fatik> in cluster <SEAS-COMPUTE> at Mon Apr 20 12:26:04 2020
+</home/warehouse/fatik> was used as the home directory.
+</home/warehouse/fatik/final-project-amandahua-fatik-final> was used as the working directory.
+Started at Mon Apr 20 12:26:04 2020
+Terminated at Mon Apr 20 12:31:29 2020
+Results reported at Mon Apr 20 12:31:29 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+
+#BSUB -q linuxlab-cse539
+#BSUB -o mg.out.%J
+#BSUB -e mg.out.%J
+#BSUB -J run.sh
+
+echo "Start"
+./run.sh FF
+echo "End"
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1140.48 sec.
+    Max Memory :                                 3 GB
+    Average Memory :                             2.90 GB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                24
+    Run time :                                   325 sec.
+    Turnaround time :                            2109 sec.
+
+The output (if any) follows:
+
+Start
+mg, C, 
+./NPB-/run.sh 1 mg.C
+Trial 0 of running mg.C with FF and 1 cores
+Time in seconds = 46.38, 0
+Trial 0 of running mg.C with FF and 2 cores
+Time in seconds = 35.41, 2
+Trial 0 of running mg.C with FF and 4 cores
+Time in seconds = 31.47, 4
+Trial 0 of running mg.C with FF and 6 cores
+Time in seconds = 29.72, 6
+Trial 0 of running mg.C with FF and 8 cores
+Time in seconds = 21.32, 8
+Trial 0 of running mg.C with FF and 10 cores
+Time in seconds = 10.82, 10
+Trial 0 of running mg.C with FF and 12 cores
+Time in seconds = 9.40, 12
+Trial 0 of running mg.C with FF and 14 cores
+Time in seconds = 8.21, 14
+Trial 0 of running mg.C with FF and 16 cores
+Time in seconds = 8.08, 16
+End

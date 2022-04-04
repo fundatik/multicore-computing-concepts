@@ -1,0 +1,80 @@
+P=1
+P=1
+Running time 1: 26.095410 s
+Running time 2: 25.657681 s
+Running time 3: 24.503056 s
+Running time 4: 26.013730 s
+Running time 5: 25.416346 s
+Running time average: 25.537245 s
+Std. dev: 0.639776 s (2.505%)
+Running time 1: 26.039104 s
+Running time 2: 25.284460 s
+Running time 3: 26.225185 s
+Running time 4: 26.050562 s
+Running time 5: 25.856979 s
+Running time average: 25.891258 s
+Std. dev: 0.363360 s (1.403%)
+P=2
+P=2
+Running time 1: 12.560804 s
+Running time 2: 12.508667 s
+Running time 3: 12.446526 s
+Running time 4: 12.436629 s
+Running time 5: 12.482190 s
+Running time average: 12.486963 s
+Std. dev: 0.050287 s (0.403%)
+Running time 1: 12.488247 s
+Running time 2: 12.507926 s
+Running time 3: 12.409925 s
+Running time 4: 12.458081 s
+Running time 5: 12.442647 s
+Running time average: 12.461365 s
+Std. dev: 0.038399 s (0.308%)
+P=4
+Running time 1: 6.446328 s
+Running time 2: 6.551411 s
+Running time 3: 6.379834 s
+Running time 4: 6.397652 s
+Running time 5: 6.310326 s
+Running time average: 6.417110 s
+Std. dev: 0.089528 s (1.395%)
+P=4
+Running time 1: 6.438957 s
+Running time 2: 6.428883 s
+Running time 3: 6.380067 s
+Running time 4: 6.255965 s
+Running time 5: 6.166712 s
+Running time average: 6.334117 s
+Std. dev: 0.118549 s (1.872%)
+P=8
+Running time 1: 3.446711 s
+Running time 2: 3.575485 s
+Running time 3: 3.247221 s
+Running time 4: 3.313377 s
+Running time 5: 3.283233 s
+Running time average: 3.373205 s
+Std. dev: 0.135892 s (4.029%)
+P=8
+Running time 1: 3.139018 s
+Running time 2: 2.557571 s
+Running time 3: 2.227763 s
+Running time 4: 2.156334 s
+Running time 5: 1.861510 s
+Running time average: 2.388439 s
+Std. dev: 0.487165 s (20.397%)
+P=16
+Running time 1: 2.463636 s
+Running time 2: 3.032726 s
+Running time 3: 2.801642 s
+Running time 4: 2.942221 s
+Running time 5: 2.660497 s
+Running time average: 2.780144 s
+Std. dev: 0.226396 s (8.143%)
+P=16
+Running time 1: 1.298137 s
+Running time 2: 1.188599 s
+Running time 3: 1.229768 s
+Running time 4: 1.218042 s
+Running time 5: 1.216292 s
+Running time average: 1.230168 s
+Std. dev: 0.040889 s (3.324%)

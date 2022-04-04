@@ -1,0 +1,27 @@
+# PROCESS AFFINITY
+test1 -> 	taskset cpu_affinity=compact 
+test2 -> 	perf stat, number of migrations are higher for openmp version, 
+		esp. 14,16,18,20 threads, needs to pin each thread to a specific cpu core
+test3 ->	likwid-pin, assigning each thread to a physical core
+test4 ->	perf stat after we prevent threads from migrating between cores 
+
+# NUMA = spread or scatter
+test5a -> 	likwid marker L3 MPKI, it needs to use make.def.likwid and mg.cpp.likwid
+tets5b -> 	likwid marker memory bandwidth, it needs to use make.def.likwid and mg.cpp.likwid
+
+test6  ->	evenly spread threads across all sockets and cores if the number of threads
+		is higher than the number of cores in a socket
+test7  ->	likwid marker mem,l3cache
+
+# MEMORY POLICY
+test8  ->	use numactl --interleave=all
+test9  ->	likwid marker mem, l3cache
+
+testX  ->	likwid marker remote hit, local hit
+
+# LOOP SCHEDULING
+test10 ->	dynamic scheduling, default chunk size
+test11  ->	likwid marker, mem, l3cache
+testY  ->	chunksize 8,16,64
+
+

@@ -1,0 +1,51 @@
+Sender: LSF System <lsfadmin@linuxlab011.engr.wustl.edu>
+Subject: Job 850123: <run.sh> in cluster <SEAS-COMPUTE> Exited
+
+Job <run.sh> was submitted from host <linuxlab009.engr.wustl.edu> by user <amandahua> in cluster <SEAS-COMPUTE> at Sat Apr 25 18:15:40 2020
+Job was executed on host(s) <linuxlab011.engr.wustl.edu>, in queue <linuxlab-cse539>, as user <amandahua> in cluster <SEAS-COMPUTE> at Sat Apr 25 18:15:41 2020
+</home/warehouse/amandahua> was used as the home directory.
+</home/warehouse/amandahua/final-project-amandahua-fatik-final> was used as the working directory.
+Started at Sat Apr 25 18:15:41 2020
+Terminated at Sat Apr 25 18:16:36 2020
+Results reported at Sat Apr 25 18:16:36 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+
+#BSUB -q linuxlab-cse539
+#BSUB -o mg.clk.%J
+#BSUB -e mg.clk.%J
+#BSUB -J run.sh
+
+echo "Start"
+./run.sh CLK
+echo "End"
+
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 130.
+
+Resource usage summary:
+
+    CPU time :                                   52.95 sec.
+    Max Memory :                                 3 GB
+    Average Memory :                             2.80 GB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   54 sec.
+    Turnaround time :                            56 sec.
+
+The output (if any) follows:
+
+Start
+/home/warehouse/amandahua/final-project-amandahua-fatik-final/NPB-CLK
+mg, C, 
+./NPB-/run.sh 1 mg.C
+Trial 0 of running mg.C with CLK and 1 cores

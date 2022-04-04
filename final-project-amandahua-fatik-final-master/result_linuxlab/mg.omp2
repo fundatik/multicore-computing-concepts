@@ -1,0 +1,67 @@
+Sender: LSF System <lsfadmin@linuxlab011.engr.wustl.edu>
+Subject: Job 818506: <run.sh> in cluster <SEAS-COMPUTE> Done
+
+Job <run.sh> was submitted from host <linuxlab007.engr.wustl.edu> by user <fatik> in cluster <SEAS-COMPUTE> at Mon Apr 20 11:56:18 2020
+Job was executed on host(s) <linuxlab011.engr.wustl.edu>, in queue <linuxlab-cse539>, as user <fatik> in cluster <SEAS-COMPUTE> at Mon Apr 20 12:11:48 2020
+</home/warehouse/fatik> was used as the home directory.
+</home/warehouse/fatik/final-project-amandahua-fatik-final> was used as the working directory.
+Started at Mon Apr 20 12:11:48 2020
+Terminated at Mon Apr 20 12:18:14 2020
+Results reported at Mon Apr 20 12:18:14 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+
+#BSUB -q linuxlab-cse539
+#BSUB -o mg.out.%J
+#BSUB -e mg.out.%J
+#BSUB -J run.sh
+
+echo "Start"
+./run.sh OMP
+echo "End"
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1368.12 sec.
+    Max Memory :                                 3 GB
+    Average Memory :                             2.95 GB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                22
+    Run time :                                   385 sec.
+    Turnaround time :                            1316 sec.
+
+The output (if any) follows:
+
+Start
+mg, C, 
+./NPB-/run.sh 1 mg.C
+Trial 0 of running mg.C with OMP and 1 cores
+Time in seconds = 45.01, 0
+Trial 0 of running mg.C with OMP and 2 cores
+Time in seconds = 35.20, 2
+Trial 0 of running mg.C with OMP and 4 cores
+Time in seconds = 30.41, 4
+Trial 0 of running mg.C with OMP and 6 cores
+Time in seconds = 28.94, 6
+Trial 0 of running mg.C with OMP and 8 cores
+Time in seconds = 28.39, 8
+Trial 0 of running mg.C with OMP and 10 cores
+Time in seconds = 18.38, 10
+Trial 0 of running mg.C with OMP and 12 cores
+Time in seconds = 15.48, 12
+Trial 0 of running mg.C with OMP and 14 cores
+Time in seconds = 12.82, 14
+Trial 0 of running mg.C with OMP and 16 cores
+Time in seconds = 10.50, 16
+End

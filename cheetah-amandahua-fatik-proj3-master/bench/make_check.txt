@@ -1,0 +1,122 @@
+./fib 42 --nproc 16
+Cheetah: invoking user main with 16 workers.
+Result: 267914296
+Running time 1: 1.188675 s
+Running time 2: 1.101545 s
+Running time 3: 1.104862 s
+Running time 4: 1.102536 s
+Running time 5: 1.106320 s
+Running time average: 1.120788 s
+Std. dev: 0.037997 s (3.390%)
+./cholesky --nproc 16 -n 4000 -z 40000 -c
+Cheetah: invoking user main with 16 workers.
+Running time 1: 0.855534 s
+Running time 2: 0.845714 s
+Running time 3: 0.856499 s
+Running time 4: 0.842235 s
+Running time 5: 0.844046 s
+Running time average: 0.848806 s
+Std. dev: 0.006705 s (0.790%)
+Now check result ... 
+
+Cilk Example: cholesky
+Error: 0.000000
+
+Options: original size     = 4000
+         original nonzeros = 40000
+         input nonzeros    = 40096
+         input blocks      = 35850
+         output nonzeros   = 6350806
+         output blocks     = 477040
+
+./fft --nproc 16 -n 67108864
+Cheetah: invoking user main with 16 workers.
+Testing cos: -0.702713
+Running time 1: 1.217037 s
+Running time 2: 1.226301 s
+Running time 3: 1.216718 s
+Running time 4: 1.205929 s
+Running time 5: 1.211780 s
+Running time average: 1.215553 s
+Std. dev: 0.007516 s (0.618%)
+
+cilk example: fft
+options:  number of elements   n = 67108864
+
+./heat --nproc 16 -nx 2048 -ny 2048 -nt 500
+Cheetah: invoking user main with 16 workers.
+Testing exp: -0.000000
+Running time 1: 1.266704 s
+Running time 2: 1.153252 s
+Running time 3: 1.154117 s
+Running time 4: 1.146634 s
+Running time 5: 1.153073 s
+Running time average: 1.174756 s
+Std. dev: 0.051487 s (4.383%)
+
+Cilk Example: heat
+
+   dx = 0.000767
+   dy = 0.000767
+   dt = 0.000000
+
+ Stability Value for explicit method must be > 0:  0.499321
+
+Options: granularity = 10
+         nx          = 2048
+         ny          = 2048
+         nt          = 500
+./lu --nproc 16 -n 4096 -c
+Cheetah: invoking user main with 16 workers.
+Running time 1: 0.942555 s
+Running time 2: 0.934174 s
+Running time 3: 0.933190 s
+Running time 4: 0.930775 s
+Running time 5: 0.936150 s
+Running time average: 0.935369 s
+Std. dev: 0.004459 s (0.477%)
+Now check result ...
+
+Cilk Example: lu
+Options: (n x n matrix) n = 4096
+
+./mm_dac --nproc 16 -n 2048 -c
+Cheetah: invoking user main with 16 workers.
+Checking result.
+MM_dac test passed.
+Running time 1: 0.943804 s
+Running time 2: 0.942499 s
+Running time 3: 0.940356 s
+Running time 4: 0.940857 s
+Running time 5: 0.941045 s
+Running time average: 0.941712 s
+Std. dev: 0.001415 s (0.150%)
+./nqueens --nproc 16 14
+Cheetah: invoking user main with 16 workers.
+Running ./nqueens with n = 14.
+Running time 1: 1.669662 s
+Running time 2: 1.644754 s
+Running time 3: 1.642297 s
+Running time 4: 1.640012 s
+Running time 5: 1.641337 s
+Running time average: 1.647612 s
+Std. dev: 0.012447 s (0.755%)
+Total number of solutions : 365596
+./strassen --nproc 16 -n 4096 -c
+Cheetah: invoking user main with 16 workers.
+Checking results ... 
+Checking results ... 
+Checking results ... 
+Checking results ... 
+Checking results ... 
+Running time 1: 1.058695 s
+Running time 2: 1.068880 s
+Running time 3: 1.108374 s
+Running time 4: 1.043045 s
+Running time 5: 1.044570 s
+Running time average: 1.064713 s
+Std. dev: 0.026623 s (2.500%)
+
+Cilk Example: strassen
+Options: n = 4096
+

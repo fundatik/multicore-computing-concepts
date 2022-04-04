@@ -1,0 +1,4 @@
+Starter code for project 1, implementing a parallel sorting algorithm.
+
+Please include your Cilk Plus implementation in cilk_sort.c
+and your pthreaded implementation in pthread_sort.c.

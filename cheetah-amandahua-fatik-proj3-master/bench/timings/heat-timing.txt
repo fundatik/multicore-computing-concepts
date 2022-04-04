@@ -1,0 +1,210 @@
+P=1
+Running time 1: 7.880754 s
+Running time 2: 8.077433 s
+Running time 3: 8.180790 s
+Running time 4: 7.799420 s
+Running time 5: 7.901581 s
+Running time average: 7.967996 s
+Std. dev: 0.156283 s (1.961%)
+
+Cilk Example: heat
+
+   dx = 0.000767
+   dy = 0.000767
+   dt = 0.000000
+
+ Stability Value for explicit method must be > 0:  0.499321
+
+Options: granularity = 10
+         nx          = 2048
+         ny          = 2048
+         nt          = 500
+P=1
+Running time 1: 8.175941 s
+Running time 2: 8.119137 s
+Running time 3: 7.923477 s
+Running time 4: 7.838502 s
+Running time 5: 7.983817 s
+Running time average: 8.008175 s
+Std. dev: 0.138757 s (1.733%)
+
+Cilk Example: heat
+
+   dx = 0.000767
+   dy = 0.000767
+   dt = 0.000000
+
+ Stability Value for explicit method must be > 0:  0.499321
+
+Options: granularity = 10
+         nx          = 2048
+         ny          = 2048
+         nt          = 500
+P=2
+Running time 1: 5.426309 s
+Running time 2: 5.371774 s
+Running time 3: 6.235006 s
+Running time 4: 6.744966 s
+Running time 5: 6.589755 s
+Running time average: 6.073562 s
+Std. dev: 0.643184 s (10.590%)
+
+Cilk Example: heat
+
+   dx = 0.000767
+   dy = 0.000767
+   dt = 0.000000
+
+ Stability Value for explicit method must be > 0:  0.499321
+
+Options: granularity = 10
+         nx          = 2048
+         ny          = 2048
+         nt          = 500
+P=2
+Running time 1: 5.130200 s
+Running time 2: 5.726000 s
+Running time 3: 5.479186 s
+Running time 4: 5.508370 s
+Running time 5: 5.857032 s
+Running time average: 5.540157 s
+Std. dev: 0.277372 s (5.007%)
+
+Cilk Example: heat
+
+   dx = 0.000767
+   dy = 0.000767
+   dt = 0.000000
+
+ Stability Value for explicit method must be > 0:  0.499321
+
+Options: granularity = 10
+         nx          = 2048
+         ny          = 2048
+         nt          = 500
+P=4
+Running time 1: 3.214019 s
+Running time 2: 4.028434 s
+Running time 3: 3.314106 s
+Running time 4: 3.994433 s
+Running time 5: 5.045008 s
+Running time average: 3.919200 s
+Std. dev: 0.732880 s (18.700%)
+
+Cilk Example: heat
+
+   dx = 0.000767
+   dy = 0.000767
+   dt = 0.000000
+
+ Stability Value for explicit method must be > 0:  0.499321
+
+Options: granularity = 10
+         nx          = 2048
+         ny          = 2048
+         nt          = 500
+P=4
+Running time 1: 6.113469 s
+Running time 2: 4.632030 s
+Running time 3: 5.944725 s
+Running time 4: 5.658033 s
+Running time 5: 6.444992 s
+Running time average: 5.758650 s
+Std. dev: 0.691191 s (12.003%)
+
+Cilk Example: heat
+
+   dx = 0.000767
+   dy = 0.000767
+   dt = 0.000000
+
+ Stability Value for explicit method must be > 0:  0.499321
+
+Options: granularity = 10
+         nx          = 2048
+         ny          = 2048
+         nt          = 500
+P=8
+Running time 1: 2.166928 s
+Running time 2: 1.993648 s
+Running time 3: 3.141718 s
+Running time 4: 1.518640 s
+Running time 5: 1.668790 s
+Running time average: 2.097945 s
+Std. dev: 0.637351 s (30.380%)
+
+Cilk Example: heat
+
+   dx = 0.000767
+   dy = 0.000767
+   dt = 0.000000
+
+ Stability Value for explicit method must be > 0:  0.499321
+
+Options: granularity = 10
+         nx          = 2048
+         ny          = 2048
+         nt          = 500
+P=8
+Running time 1: 5.760135 s
+Running time 2: 5.697555 s
+Running time 3: 6.374027 s
+Running time 4: 6.521009 s
+Running time 5: 6.115034 s
+Running time average: 6.093552 s
+Std. dev: 0.363946 s (5.973%)
+
+Cilk Example: heat
+
+   dx = 0.000767
+   dy = 0.000767
+   dt = 0.000000
+
+ Stability Value for explicit method must be > 0:  0.499321
+
+Options: granularity = 10
+         nx          = 2048
+         ny          = 2048
+         nt          = 500
+P=16
+Running time 1: 8.228729 s
+Running time 2: 5.480002 s
+Running time 3: 5.074027 s
+Running time 4: 4.857865 s
+Running time 5: 4.973976 s
+Running time average: 5.722920 s
+Std. dev: 1.420245 s (24.817%)
+
+Cilk Example: heat
+
+   dx = 0.000767
+   dy = 0.000767
+   dt = 0.000000
+
+ Stability Value for explicit method must be > 0:  0.499321
+
+Options: granularity = 10
+         nx          = 2048
+         ny          = 2048
+         nt          = 500
+P=16
+Running time 1: 11.173969 s
+Running time 2: 9.484328 s
+Running time 3: 12.032078 s
+Running time 4: 12.449024 s
+Running time 5: 7.770981 s
+Running time average: 10.582076 s
+Std. dev: 1.939436 s (18.328%)
+
+Cilk Example: heat
+
+   dx = 0.000767
+   dy = 0.000767
+   dt = 0.000000
+
+ Stability Value for explicit method must be > 0:  0.499321
+
+Options: granularity = 10
+         nx          = 2048
+         ny          = 2048
+         nt          = 500
